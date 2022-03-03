@@ -1,4 +1,10 @@
-// import * as cliffy from "https://deno.land/x/cliffy@v0.20.1/mod.ts";
+// create a config file : ~/.config/devswap.json with the following schema:
+// {
+//    "command": "Path to file that symlinks to the real file",
+//    "prodcommand": "Path to the real production file",
+//    "devcommand": "Path to the real development file"
+// }
+
 import {
   keypress,
   KeyPressEvent,
