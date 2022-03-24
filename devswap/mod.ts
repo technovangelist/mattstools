@@ -8,7 +8,7 @@
 import {
   keypress,
   KeyPressEvent,
-} from "https://deno.land/x/cliffy@v0.20.1/keypress/mod.ts";
+} from "https://deno.land/x/cliffy@v0.20.1/keypress/mod";
 const readJson = async (filePath: string) => {
   const content = await Deno.readTextFile(filePath);
   return JSON.parse(content);
